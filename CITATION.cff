@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the paper."
+title: "Data and code for: Pressure demand and solute replacement in a collagen-plugged bioreactor"
+type: dataset
+license: MIT
+authors:
+  - family-names: Akash
+    given-names: Mohammad Mehedi Hasan
+    affiliation: "FAMU-FSU College of Engineering; South Dakota State University"
+    email: makash@eng.famu.fsu.edu
+  - family-names: Yeasin
+    given-names: Mohammad
+    affiliation: "South Dakota State University"
+  - family-names: Van Horsen
+    given-names: Karl
+    affiliation: "North Dakota State University"
+  - family-names: Mallik
+    given-names: Sanku
+    affiliation: "South Dakota State University"
+  - family-names: Basu
+    given-names: Saikat
+    affiliation: "South Dakota State University"
+    email: Saikat.Basu@sdstate.edu
+preferred-citation:
+  type: article
+  title: "Pressure demand and solute replacement in a collagen-plugged bioreactor"
+  journal: "Physical Review Fluids"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: Akash
+      given-names: Mohammad Mehedi Hasan
+    - family-names: Yeasin
+      given-names: Mohammad
+    - family-names: Van Horsen
+      given-names: Karl
+    - family-names: Mallik
+      given-names: Sanku
+    - family-names: Basu
+      given-names: Saikat

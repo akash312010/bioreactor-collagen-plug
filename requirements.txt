@@ -1,0 +1,10 @@
+numpy>=2
+scipy
+sympy
+mpmath
+shapely
+matplotlib
+Pillow
+openpyxl
+pymupdf
+pypdf

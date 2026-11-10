@@ -1,0 +1,11 @@
+                         "Surface Integral Report"
+
+           Area-Weighted Average
+                  Total Pressure                 [Pa]
+-------------------------------- --------------------
+                           inlet            190002.85
+                          outlet           0.38184617
+                         port_in            189998.34
+                        port_out            0.9326451
+                ---------------- --------------------
+                             Net            70929.166

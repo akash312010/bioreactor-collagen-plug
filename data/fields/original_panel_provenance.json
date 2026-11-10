@@ -1,0 +1,320 @@
+{
+  "Fig_Device_Geometry": [
+    {
+      "source": "Manuscript/fig1_src/1M_5mlpmin_tetra.cas",
+      "view": "z=0 meridional cut",
+      "units": "mm",
+      "time": "steady",
+      "normalization": "none",
+      "limits": [
+        -22,
+        22,
+        -69,
+        3
+      ],
+      "note": "Chamber is open fluid in existing device runs; shaded region identifies the physical plug location."
+    }
+  ],
+  "Fig_Device_Flow": [
+    {
+      "case": "Manuscript/figures/2026-10-21_arial12/device_native/device_2M_Q15.cas",
+      "data": "Manuscript/figures/2026-10-21_arial12/device_native/device_2M_Q15.dat",
+      "run": "2M; nominal 15 mL/min",
+      "units": "mm; m/s",
+      "time": "steady",
+      "normalization": "absolute axial velocity magnitude",
+      "view": "z=0 native-cell plane cut",
+      "colour_limits": [
+        0,
+        0.045
+      ],
+      "outlet_slab_mm": [
+        -60.2,
+        -59.8
+      ],
+      "note": "Original 3D cells; no use of the flux-inconsistent 0.5M/5 CGNS export."
+    },
+    {
+      "source": "Manuscript/Part1_data_reconciled.csv",
+      "units": "Pa; mL/min"
+    }
+  ],
+  "Fig_Pore_Geometry_Mesh": [
+    {
+      "source": "Image.png",
+      "content": "native source raster pixels"
+    },
+    {
+      "source": "cad_output/collagen_channel_interior_p*.csv",
+      "units": "\u00b5m",
+      "note": "Each trace has its own rigid channel frame; shapes are displayed together, not spatially registered as independent samples."
+    },
+    {
+      "source": "CFD_runs_new/B1_v2_p35_fine/New60k_fine_mesh/New60k_fine_mesh/fine_mesh.cas",
+      "units": "\u00b5m",
+      "view": "xy",
+      "time": "steady",
+      "limits": [
+        [
+          41,
+          53,
+          -11.2,
+          -3.8
+        ],
+        [
+          45.55,
+          46.55,
+          -9.66,
+          -9.06
+        ]
+      ]
+    }
+  ],
+  "Fig_Pore_FlowField": [
+    {
+      "source_case": "CFD_runs_new/B1_v2_p35_fine/New60k_fine_mesh/New60k_fine_mesh/fine_mesh.cas",
+      "source_data": "CFD_runs_new/B1_v2_p35_fine/New60k_fine_mesh/New60k_fine_mesh/fine_mesh.dat",
+      "units": "\u00b5m; Pa; m/s",
+      "time": "steady",
+      "normalization": "speed/U; U=q L/A2D",
+      "U_ms": 0.004164757602156477,
+      "limits": [
+        -1.0,
+        91.29810298,
+        -13.44235746452,
+        12.466523732379999
+      ],
+      "colour_limits": [
+        0,
+        4
+      ],
+      "view": "xy orthographic",
+      "vector_method": "original cell scalars, flat vector triangles; contours use area-weighted cell-to-node streamfunction"
+    },
+    {
+      "source_case": "CFD_runs_new/B1_v2_p35_fine/New60k_fine_mesh/New60k_fine_mesh/fine_mesh.cas",
+      "source_data": "CFD_runs_new/B1_v2_p35_fine/New60k_fine_mesh/New60k_fine_mesh/fine_mesh.dat",
+      "units": "\u00b5m; Pa; m/s",
+      "time": "steady",
+      "normalization": "(p-po)/(pi-po)",
+      "U_ms": 0.004164757602156477,
+      "limits": [
+        -1.0,
+        91.29810298,
+        -13.44235746452,
+        12.466523732379999
+      ],
+      "colour_limits": [
+        0,
+        1
+      ],
+      "view": "xy orthographic",
+      "vector_method": "original cell scalars, flat vector triangles; contours use area-weighted cell-to-node streamfunction",
+      "p_in_Pa": 295.887418736559,
+      "p_out_Pa": 0.0
+    },
+    {
+      "source_case": "CFD_runs_new/D1/new/New Run_D1/collagen_p28_fine.cas",
+      "source_data": "CFD_runs_new/D1/new/New Run_D1/collagen_p28_fine.dat",
+      "units": "\u00b5m; Pa; m/s",
+      "time": "steady",
+      "normalization": "speed/U; U=q L/A2D",
+      "U_ms": 0.0031154692934415207,
+      "limits": [
+        37.0,
+        44.5,
+        -11.5,
+        -3.5
+      ],
+      "colour_limits": [
+        0,
+        0.08
+      ],
+      "view": "xy orthographic",
+      "vector_method": "original cell scalars, flat vector triangles; contours use area-weighted cell-to-node streamfunction"
+    },
+    {
+      "source_case": "CFD_runs_new/D4/new/New_D4/collagen_p45_fine.cas",
+      "source_data": "CFD_runs_new/D4/new/New_D4/collagen_p45_fine.dat",
+      "units": "\u00b5m; Pa; m/s",
+      "time": "steady",
+      "normalization": "speed/U; U=q L/A2D",
+      "U_ms": 0.009327638317926355,
+      "limits": [
+        -1.0,
+        97.74796748,
+        -14.17791015406,
+        12.61183941565
+      ],
+      "colour_limits": [
+        0,
+        4
+      ],
+      "view": "xy orthographic",
+      "vector_method": "original cell scalars, flat vector triangles; contours use area-weighted cell-to-node streamfunction"
+    }
+  ],
+  "Fig_S1_Pressure_Verification": [
+    {
+      "source": "CFD_runs_new/B_runs_check_2026-10-05/mesh_study_B.json",
+      "note": "All four stations; p=7.35 at X=20 is diagnostic, not a claimed scheme order."
+    }
+  ],
+  "Fig_S2_Tracer_Verification": [
+    {
+      "source": "CFD_runs_new/tracer_verification_2026-10-15/study_all.json",
+      "note": "Time-step study is independent central-advection scalar solver on frozen Fluent fluxes."
+    },
+    {
+      "source": "CFD_runs_new/tracer_verification_2026-10-15/courant.json"
+    }
+  ],
+  "Fig_S3_Theory_Sensitivity": [
+    {
+      "source": "CFD_runs_new/review_checks_2026-10-21/curvi_test.json",
+      "note": "All 80 comparisons, including the short reference smoothing."
+    }
+  ],
+  "Fig_S4_Exchange_Tails": [
+    {
+      "source": "CFD_runs_new/E7_run/E7",
+      "run": "E7"
+    },
+    {
+      "source": "CFD_runs_new/E8_run/New2/New_E8",
+      "run": "E8"
+    },
+    {
+      "source": "CFD_runs_new/review_checks_2026-10-21/dsweep_*.json",
+      "note": "Frozen velocity; independent scalar code; tau fit over 6-10 ideal times."
+    }
+  ],
+  "Fig_S5_Coupling": [
+    {
+      "source": "CFD_runs_new/E_runs_check_2026-10-15/E_all.json",
+      "runs": [
+        "E11",
+        "E12",
+        "E1",
+        "E6"
+      ],
+      "note": "Same nominal device Q does not imply the same pore Pe between mappings."
+    }
+  ],
+  "Fig_Tracer_Snapshots": [
+    {
+      "run": "E11",
+      "channel": "G3",
+      "case": "CFD_runs_new/E11_run/E11/E11-1.cas",
+      "data": "CFD_runs_new/E11_run/E11/E11-1-02000.dat",
+      "report": "CFD_runs_new/E11_run/E11/vol_avg-rfile.out",
+      "units": "\u00b5m; scalar dimensionless",
+      "time_s": 0.2552,
+      "time_over_ideal": 0.9994875802350246,
+      "internal_average_from_cells": 0.9048686572909871,
+      "internal_average_from_report": 0.9048686572909873,
+      "absolute_difference": 2.220446049250313e-16,
+      "view": "xy orthographic",
+      "normalization": "log10(max(1-c,0.001))",
+      "colour_limits": [
+        -3,
+        0
+      ]
+    },
+    {
+      "run": "E11",
+      "channel": "G3",
+      "case": "CFD_runs_new/E11_run/E11/E11-1.cas",
+      "data": "CFD_runs_new/E11_run/E11/E11-1-06000.dat",
+      "report": "CFD_runs_new/E11_run/E11/vol_avg-rfile.out",
+      "units": "\u00b5m; scalar dimensionless",
+      "time_s": 0.7656000000000001,
+      "time_over_ideal": 2.9984627407050746,
+      "internal_average_from_cells": 0.9999990418871288,
+      "internal_average_from_report": 0.9999990418871275,
+      "absolute_difference": 1.3322676295501878e-15,
+      "view": "xy orthographic",
+      "normalization": "log10(max(1-c,0.001))",
+      "colour_limits": [
+        -3,
+        0
+      ]
+    },
+    {
+      "run": "E12",
+      "channel": "G3",
+      "case": "CFD_runs_new/E12_run/E12/E12-1.cas",
+      "data": "CFD_runs_new/E12_run/E12/E12-1-02000.dat",
+      "report": "CFD_runs_new/E12_run/E12/vol_avg-rfile.out",
+      "units": "\u00b5m; scalar dimensionless",
+      "time_s": 0.04254,
+      "time_over_ideal": 1.0001545226500785,
+      "internal_average_from_cells": 0.9010359833890967,
+      "internal_average_from_report": 0.9010359833890964,
+      "absolute_difference": 3.3306690738754696e-16,
+      "view": "xy orthographic",
+      "normalization": "log10(max(1-c,0.001))",
+      "colour_limits": [
+        -3,
+        0
+      ]
+    },
+    {
+      "run": "E12",
+      "channel": "G3",
+      "case": "CFD_runs_new/E12_run/E12/E12-1.cas",
+      "data": "CFD_runs_new/E12_run/E12/E12-1-06000.dat",
+      "report": "CFD_runs_new/E12_run/E12/vol_avg-rfile.out",
+      "units": "\u00b5m; scalar dimensionless",
+      "time_s": 0.12762,
+      "time_over_ideal": 3.0004635679502356,
+      "internal_average_from_cells": 0.9999426218241517,
+      "internal_average_from_report": 0.9999426218241521,
+      "absolute_difference": 3.3306690738754696e-16,
+      "view": "xy orthographic",
+      "normalization": "log10(max(1-c,0.001))",
+      "colour_limits": [
+        -3,
+        0
+      ]
+    },
+    {
+      "run": "E8",
+      "channel": "G1",
+      "case": "CFD_runs_new/E8_run/New2/New_E8/E8-2.cas",
+      "data": "CFD_runs_new/E8_run/New2/New_E8/E8-2-0.007508.dat",
+      "report": "CFD_runs_new/E8_run/New2/New_E8/vol_avg-rfile_1_1.out",
+      "units": "\u00b5m; scalar dimensionless",
+      "time_s": 0.007508,
+      "time_over_ideal": 2.000167202962529,
+      "internal_average_from_cells": 0.9522094720337572,
+      "internal_average_from_report": 0.9522094720337573,
+      "absolute_difference": 1.1102230246251565e-16,
+      "view": "xy orthographic",
+      "normalization": "log10(max(1-c,0.001))",
+      "colour_limits": [
+        -3,
+        0
+      ]
+    },
+    {
+      "run": "E8",
+      "channel": "G1",
+      "case": "CFD_runs_new/E8_run/New2/New_E8/E8-2.cas",
+      "data": "CFD_runs_new/E8_run/New2/New_E8/E8-2-0.037540.dat",
+      "report": "CFD_runs_new/E8_run/New2/New_E8/vol_avg-rfile_1_1.out",
+      "units": "\u00b5m; scalar dimensionless",
+      "time_s": 0.03754,
+      "time_over_ideal": 10.000836014812643,
+      "internal_average_from_cells": 0.9922416019491871,
+      "internal_average_from_report": 0.992241601949187,
+      "absolute_difference": 1.1102230246251565e-16,
+      "view": "xy orthographic",
+      "normalization": "log10(max(1-c,0.001))",
+      "colour_limits": [
+        -3,
+        0
+      ]
+    }
+  ]
+}

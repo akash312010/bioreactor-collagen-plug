@@ -1,0 +1,9 @@
+                         "Surface Integral Report"
+
+           Area-Weighted Average
+              Velocity Magnitude                [m/s]
+-------------------------------- --------------------
+                           inlet             0.007121
+                          outlet         0.0042807503
+                ---------------- --------------------
+                             Net         0.0053405519

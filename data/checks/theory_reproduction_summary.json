@@ -1,0 +1,456 @@
+{
+  "comparisons": 80,
+  "maximum_absolute_ratio_difference": 3.3306690738754696e-15,
+  "metric_checks": {
+    "G1": {
+      "sig1": {
+        "4_8": {
+          "raw_signed_metric_min": -6.871557943886522,
+          "filtered_signed_metric_min": -3.178658977627909,
+          "raw_metric_nonpositive_fraction": 0.10752630244655732
+        },
+        "6_12": {
+          "raw_signed_metric_min": -6.871557943886522,
+          "filtered_signed_metric_min": -3.178658977627909,
+          "raw_metric_nonpositive_fraction": 0.11822870216584541
+        },
+        "8_16": {
+          "raw_signed_metric_min": -6.871557943886522,
+          "filtered_signed_metric_min": -3.178658977627909,
+          "raw_metric_nonpositive_fraction": 0.13137981705201046
+        },
+        "10_20": {
+          "raw_signed_metric_min": -6.871557943886522,
+          "filtered_signed_metric_min": -3.178658977627909,
+          "raw_metric_nonpositive_fraction": 0.14760578956248688
+        }
+      },
+      "sig2": {
+        "4_8": {
+          "raw_signed_metric_min": -0.8466586248254455,
+          "filtered_signed_metric_min": -0.31870429464176764,
+          "raw_metric_nonpositive_fraction": 0.03623481655921008
+        },
+        "6_12": {
+          "raw_signed_metric_min": -0.8466586248254455,
+          "filtered_signed_metric_min": -0.31870429464176764,
+          "raw_metric_nonpositive_fraction": 0.04005941356032955
+        },
+        "8_16": {
+          "raw_signed_metric_min": -0.8466586248254455,
+          "filtered_signed_metric_min": -0.31870429464176764,
+          "raw_metric_nonpositive_fraction": 0.04475960299821402
+        },
+        "10_20": {
+          "raw_signed_metric_min": -0.8466586248254455,
+          "filtered_signed_metric_min": -0.31870429464176764,
+          "raw_metric_nonpositive_fraction": 0.05071690131297167
+        }
+      },
+      "sig3": {
+        "4_8": {
+          "raw_signed_metric_min": 0.4347286285374793,
+          "filtered_signed_metric_min": 0.5165214004282206,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.4347286285374793,
+          "filtered_signed_metric_min": 0.5165214004282206,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.4347286285374793,
+          "filtered_signed_metric_min": 0.5165214004282206,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.4347286285374793,
+          "filtered_signed_metric_min": 0.5165214004282206,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      },
+      "sig4": {
+        "4_8": {
+          "raw_signed_metric_min": 0.7103293651874181,
+          "filtered_signed_metric_min": 0.7165292636758593,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.7103293651874181,
+          "filtered_signed_metric_min": 0.7165292636758593,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.7103293651874181,
+          "filtered_signed_metric_min": 0.7165292636758593,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.7103293651874181,
+          "filtered_signed_metric_min": 0.7165292636758593,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      }
+    },
+    "G2": {
+      "sig1": {
+        "4_8": {
+          "raw_signed_metric_min": -2.8514118268113284,
+          "filtered_signed_metric_min": -1.6347891755360067,
+          "raw_metric_nonpositive_fraction": 0.1457543663706371
+        },
+        "6_12": {
+          "raw_signed_metric_min": -2.8514118268113284,
+          "filtered_signed_metric_min": -1.6347891755360067,
+          "raw_metric_nonpositive_fraction": 0.1598364384037289
+        },
+        "8_16": {
+          "raw_signed_metric_min": -2.8514118268113284,
+          "filtered_signed_metric_min": -1.6347891755360067,
+          "raw_metric_nonpositive_fraction": 0.17675318258514283
+        },
+        "10_20": {
+          "raw_signed_metric_min": -2.8514118268113284,
+          "filtered_signed_metric_min": -1.6347891755360067,
+          "raw_metric_nonpositive_fraction": 0.19785887070237843
+        }
+      },
+      "sig2": {
+        "4_8": {
+          "raw_signed_metric_min": -0.9185318565172467,
+          "filtered_signed_metric_min": -0.5864146120966652,
+          "raw_metric_nonpositive_fraction": 0.051380540488926756
+        },
+        "6_12": {
+          "raw_signed_metric_min": -0.9185318565172467,
+          "filtered_signed_metric_min": -0.5864146120966652,
+          "raw_metric_nonpositive_fraction": 0.05652282414449906
+        },
+        "8_16": {
+          "raw_signed_metric_min": -0.9185318565172467,
+          "filtered_signed_metric_min": -0.5864146120966652,
+          "raw_metric_nonpositive_fraction": 0.06281045193189888
+        },
+        "10_20": {
+          "raw_signed_metric_min": -0.9185318565172467,
+          "filtered_signed_metric_min": -0.5864146120966652,
+          "raw_metric_nonpositive_fraction": 0.07068727350811868
+        }
+      },
+      "sig3": {
+        "4_8": {
+          "raw_signed_metric_min": 0.06332841764182318,
+          "filtered_signed_metric_min": 0.17790107077653583,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.06332841764182318,
+          "filtered_signed_metric_min": 0.17790107077653583,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.06332841764182318,
+          "filtered_signed_metric_min": 0.17790107077653583,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.06332841764182318,
+          "filtered_signed_metric_min": 0.17790107077653583,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      },
+      "sig4": {
+        "4_8": {
+          "raw_signed_metric_min": 0.5215374625437372,
+          "filtered_signed_metric_min": 0.5562311537278588,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.5215374625437372,
+          "filtered_signed_metric_min": 0.5562311537278588,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.5215374625437372,
+          "filtered_signed_metric_min": 0.5562311537278588,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.5215374625437372,
+          "filtered_signed_metric_min": 0.5562311537278588,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      }
+    },
+    "G3": {
+      "sig1": {
+        "4_8": {
+          "raw_signed_metric_min": -1.843555741531354,
+          "filtered_signed_metric_min": -0.8831556465714557,
+          "raw_metric_nonpositive_fraction": 0.14373770859504975
+        },
+        "6_12": {
+          "raw_signed_metric_min": -1.843555741531354,
+          "filtered_signed_metric_min": -0.8831556465714557,
+          "raw_metric_nonpositive_fraction": 0.15413723771556212
+        },
+        "8_16": {
+          "raw_signed_metric_min": -1.843555741531354,
+          "filtered_signed_metric_min": -0.8831556465714557,
+          "raw_metric_nonpositive_fraction": 0.16609524731988307
+        },
+        "10_20": {
+          "raw_signed_metric_min": -1.843555741531354,
+          "filtered_signed_metric_min": -0.8831556465714557,
+          "raw_metric_nonpositive_fraction": 0.1696065669119913
+        }
+      },
+      "sig2": {
+        "4_8": {
+          "raw_signed_metric_min": -0.22907167402001982,
+          "filtered_signed_metric_min": -0.02326936475279151,
+          "raw_metric_nonpositive_fraction": 0.022766635886115008
+        },
+        "6_12": {
+          "raw_signed_metric_min": -0.22907167402001982,
+          "filtered_signed_metric_min": -0.02326936475279151,
+          "raw_metric_nonpositive_fraction": 0.024461431544258002
+        },
+        "8_16": {
+          "raw_signed_metric_min": -0.22907167402001982,
+          "filtered_signed_metric_min": -0.02326936475279151,
+          "raw_metric_nonpositive_fraction": 0.02643046411230578
+        },
+        "10_20": {
+          "raw_signed_metric_min": -0.22907167402001982,
+          "filtered_signed_metric_min": -0.02326936475279151,
+          "raw_metric_nonpositive_fraction": 0.028752478333353253
+        }
+      },
+      "sig3": {
+        "4_8": {
+          "raw_signed_metric_min": 0.34958233798120353,
+          "filtered_signed_metric_min": 0.4115198430070873,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.34958233798120353,
+          "filtered_signed_metric_min": 0.4115198430070873,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.34958233798120353,
+          "filtered_signed_metric_min": 0.4115198430070873,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.34958233798120353,
+          "filtered_signed_metric_min": 0.4115198430070873,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      },
+      "sig4": {
+        "4_8": {
+          "raw_signed_metric_min": 0.593588174426384,
+          "filtered_signed_metric_min": 0.610211641369174,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.593588174426384,
+          "filtered_signed_metric_min": 0.610211641369174,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.593588174426384,
+          "filtered_signed_metric_min": 0.610211641369174,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.593588174426384,
+          "filtered_signed_metric_min": 0.610211641369174,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      }
+    },
+    "G4": {
+      "sig1": {
+        "4_8": {
+          "raw_signed_metric_min": -2.3312313606205137,
+          "filtered_signed_metric_min": -0.7641500688838825,
+          "raw_metric_nonpositive_fraction": 0.14851250036785865
+        },
+        "6_12": {
+          "raw_signed_metric_min": -2.3312313606205137,
+          "filtered_signed_metric_min": -0.7641500688838825,
+          "raw_metric_nonpositive_fraction": 0.15873676907361753
+        },
+        "8_16": {
+          "raw_signed_metric_min": -2.3312313606205137,
+          "filtered_signed_metric_min": -0.7641500688838825,
+          "raw_metric_nonpositive_fraction": 0.1704432824228544
+        },
+        "10_20": {
+          "raw_signed_metric_min": -2.3312313606205137,
+          "filtered_signed_metric_min": -0.7641500688838825,
+          "raw_metric_nonpositive_fraction": 0.1823100176165769
+        }
+      },
+      "sig2": {
+        "4_8": {
+          "raw_signed_metric_min": -0.18582300174616506,
+          "filtered_signed_metric_min": -0.010009183565812485,
+          "raw_metric_nonpositive_fraction": 0.02146060731933688
+        },
+        "6_12": {
+          "raw_signed_metric_min": -0.18582300174616506,
+          "filtered_signed_metric_min": -0.010009183565812485,
+          "raw_metric_nonpositive_fraction": 0.02299711842660039
+        },
+        "8_16": {
+          "raw_signed_metric_min": -0.18582300174616506,
+          "filtered_signed_metric_min": -0.010009183565812485,
+          "raw_metric_nonpositive_fraction": 0.02476753971741696
+        },
+        "10_20": {
+          "raw_signed_metric_min": -0.18582300174616506,
+          "filtered_signed_metric_min": -0.010009183565812485,
+          "raw_metric_nonpositive_fraction": 0.026816884798995355
+        }
+      },
+      "sig3": {
+        "4_8": {
+          "raw_signed_metric_min": 0.33442834988812964,
+          "filtered_signed_metric_min": 0.39477307813901863,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.33442834988812964,
+          "filtered_signed_metric_min": 0.39477307813901863,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.33442834988812964,
+          "filtered_signed_metric_min": 0.39477307813901863,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.33442834988812964,
+          "filtered_signed_metric_min": 0.39477307813901863,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      },
+      "sig4": {
+        "4_8": {
+          "raw_signed_metric_min": 0.5986333761140864,
+          "filtered_signed_metric_min": 0.6211275655138335,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.5986333761140864,
+          "filtered_signed_metric_min": 0.6211275655138335,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.5986333761140864,
+          "filtered_signed_metric_min": 0.6211275655138335,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.5986333761140864,
+          "filtered_signed_metric_min": 0.6211275655138335,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      }
+    },
+    "G5": {
+      "sig1": {
+        "4_8": {
+          "raw_signed_metric_min": -1.9843709332815882,
+          "filtered_signed_metric_min": -0.5627416442405211,
+          "raw_metric_nonpositive_fraction": 0.1337544411036555
+        },
+        "6_12": {
+          "raw_signed_metric_min": -1.9843709332815882,
+          "filtered_signed_metric_min": -0.5627416442405211,
+          "raw_metric_nonpositive_fraction": 0.1427450530944634
+        },
+        "8_16": {
+          "raw_signed_metric_min": -1.9843709332815882,
+          "filtered_signed_metric_min": -0.5627416442405211,
+          "raw_metric_nonpositive_fraction": 0.15301849676929377
+        },
+        "10_20": {
+          "raw_signed_metric_min": -1.9843709332815882,
+          "filtered_signed_metric_min": -0.5627416442405211,
+          "raw_metric_nonpositive_fraction": 0.16199072936950662
+        }
+      },
+      "sig2": {
+        "4_8": {
+          "raw_signed_metric_min": -0.007669351934706636,
+          "filtered_signed_metric_min": 0.15292458095589356,
+          "raw_metric_nonpositive_fraction": 0.0031467147151445964
+        },
+        "6_12": {
+          "raw_signed_metric_min": -0.007669351934706636,
+          "filtered_signed_metric_min": 0.15292458095589356,
+          "raw_metric_nonpositive_fraction": 0.0033651899107603163
+        },
+        "8_16": {
+          "raw_signed_metric_min": -0.007669351934706636,
+          "filtered_signed_metric_min": 0.15292458095589356,
+          "raw_metric_nonpositive_fraction": 0.0036168427281194084
+        },
+        "10_20": {
+          "raw_signed_metric_min": -0.007669351934706636,
+          "filtered_signed_metric_min": 0.15292458095589356,
+          "raw_metric_nonpositive_fraction": 0.003910244876057788
+        }
+      },
+      "sig3": {
+        "4_8": {
+          "raw_signed_metric_min": 0.3886240736194898,
+          "filtered_signed_metric_min": 0.43884422235482523,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.3886240736194898,
+          "filtered_signed_metric_min": 0.43884422235482523,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.3886240736194898,
+          "filtered_signed_metric_min": 0.43884422235482523,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.3886240736194898,
+          "filtered_signed_metric_min": 0.43884422235482523,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      },
+      "sig4": {
+        "4_8": {
+          "raw_signed_metric_min": 0.6262250910256668,
+          "filtered_signed_metric_min": 0.646711244302241,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "6_12": {
+          "raw_signed_metric_min": 0.6262250910256668,
+          "filtered_signed_metric_min": 0.646711244302241,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "8_16": {
+          "raw_signed_metric_min": 0.6262250910256668,
+          "filtered_signed_metric_min": 0.646711244302241,
+          "raw_metric_nonpositive_fraction": 0.0
+        },
+        "10_20": {
+          "raw_signed_metric_min": 0.6262250910256668,
+          "filtered_signed_metric_min": 0.646711244302241,
+          "raw_metric_nonpositive_fraction": 0.0
+        }
+      }
+    }
+  }
+}

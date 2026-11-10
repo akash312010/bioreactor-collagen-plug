@@ -1,0 +1,692 @@
+{
+  "G1": {
+    "sig1": {
+      "4_8": {
+        "exact_metric_min": -3.178658977627909,
+        "conservative_bound_min": -3.178658977627908,
+        "exact_nonpositive_length_fraction": 0.07561555959304363,
+        "exact_nonpositive_resistance_fraction": 0.015298552759490316,
+        "conservative_bound_failure_length_fraction": 0.09305023209867812,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -3.178658977627909,
+        "conservative_bound_min": -3.178658977627908,
+        "exact_nonpositive_length_fraction": 0.08314179201570714,
+        "exact_nonpositive_resistance_fraction": 0.02035866727012623,
+        "conservative_bound_failure_length_fraction": 0.10231178722736438,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -3.178658977627909,
+        "conservative_bound_min": -3.178658977627908,
+        "exact_nonpositive_length_fraction": 0.0923900307141784,
+        "exact_nonpositive_resistance_fraction": 0.024320914503770732,
+        "conservative_bound_failure_length_fraction": 0.11369239145787113,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -3.178658977627909,
+        "conservative_bound_min": -3.178658977627908,
+        "exact_nonpositive_length_fraction": 0.10380059690500254,
+        "exact_nonpositive_resistance_fraction": 0.032431720588503896,
+        "conservative_bound_failure_length_fraction": 0.12773389082847414,
+        "reference_inside_channel": true
+      }
+    },
+    "sig2": {
+      "4_8": {
+        "exact_metric_min": -0.31870429464176764,
+        "conservative_bound_min": -0.31870429464176775,
+        "exact_nonpositive_length_fraction": 0.030578987175851384,
+        "exact_nonpositive_resistance_fraction": 0.00776936869518854,
+        "conservative_bound_failure_length_fraction": 0.030578987175851384,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -0.31870429464176764,
+        "conservative_bound_min": -0.31870429464176775,
+        "exact_nonpositive_length_fraction": 0.03380660949481426,
+        "exact_nonpositive_resistance_fraction": 0.010215203064561163,
+        "conservative_bound_failure_length_fraction": 0.03380660949481426,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -0.31870429464176764,
+        "conservative_bound_min": -0.31870429464176775,
+        "exact_nonpositive_length_fraction": 0.037773154552667165,
+        "exact_nonpositive_resistance_fraction": 0.012017786083902292,
+        "conservative_bound_failure_length_fraction": 0.037773154552667165,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -0.31870429464176764,
+        "conservative_bound_min": -0.31870429464176775,
+        "exact_nonpositive_length_fraction": 0.04280058855311313,
+        "exact_nonpositive_resistance_fraction": 0.01572879250277583,
+        "conservative_bound_failure_length_fraction": 0.04280058855311313,
+        "reference_inside_channel": true
+      }
+    },
+    "sig3": {
+      "4_8": {
+        "exact_metric_min": 0.5165214004282206,
+        "conservative_bound_min": 0.20499070103351058,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.5165214004282206,
+        "conservative_bound_min": 0.20499070103351058,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.5165214004282206,
+        "conservative_bound_min": 0.20499070103351058,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.5165214004282206,
+        "conservative_bound_min": 0.20499070103351058,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      }
+    },
+    "sig4": {
+      "4_8": {
+        "exact_metric_min": 0.7165292636758593,
+        "conservative_bound_min": 0.5329585180550439,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.7165292636758593,
+        "conservative_bound_min": 0.5329585180550439,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.7165292636758593,
+        "conservative_bound_min": 0.5329585180550439,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.7165292636758593,
+        "conservative_bound_min": 0.5329585180550439,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      }
+    }
+  },
+  "G2": {
+    "sig1": {
+      "4_8": {
+        "exact_metric_min": -1.6347891755360067,
+        "conservative_bound_min": -1.6347891755360067,
+        "exact_nonpositive_length_fraction": 0.08370706375339931,
+        "exact_nonpositive_resistance_fraction": 0.01659493044267422,
+        "conservative_bound_failure_length_fraction": 0.1006778639528552,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -1.6347891755360067,
+        "conservative_bound_min": -1.6347891755360067,
+        "exact_nonpositive_length_fraction": 0.09179442971577809,
+        "exact_nonpositive_resistance_fraction": 0.02115338944341309,
+        "conservative_bound_failure_length_fraction": 0.11040486539799019,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -1.6347891755360067,
+        "conservative_bound_min": -1.6347891755360067,
+        "exact_nonpositive_length_fraction": 0.10150975433317377,
+        "exact_nonpositive_resistance_fraction": 0.02630034211372224,
+        "conservative_bound_failure_length_fraction": 0.12208987842113865,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -1.6347891755360067,
+        "conservative_bound_min": -1.6347891755360067,
+        "exact_nonpositive_length_fraction": 0.1136307989699862,
+        "exact_nonpositive_resistance_fraction": 0.03236898423126004,
+        "conservative_bound_failure_length_fraction": 0.136668348005337,
+        "reference_inside_channel": true
+      }
+    },
+    "sig2": {
+      "4_8": {
+        "exact_metric_min": -0.5864146120966652,
+        "conservative_bound_min": -0.6132010123657792,
+        "exact_nonpositive_length_fraction": 0.04934565033636324,
+        "exact_nonpositive_resistance_fraction": 0.008253734175955083,
+        "conservative_bound_failure_length_fraction": 0.04934565033636324,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -0.5864146120966652,
+        "conservative_bound_min": -0.6132010123657792,
+        "exact_nonpositive_length_fraction": 0.05428427746608277,
+        "exact_nonpositive_resistance_fraction": 0.010399227099367405,
+        "conservative_bound_failure_length_fraction": 0.05428427746608277,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -0.5864146120966652,
+        "conservative_bound_min": -0.6132010123657792,
+        "exact_nonpositive_length_fraction": 0.0603228881792009,
+        "exact_nonpositive_resistance_fraction": 0.012721822111113456,
+        "conservative_bound_failure_length_fraction": 0.0603228881792009,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -0.5864146120966652,
+        "conservative_bound_min": -0.6132010123657792,
+        "exact_nonpositive_length_fraction": 0.06788775377935612,
+        "exact_nonpositive_resistance_fraction": 0.015427139262611111,
+        "conservative_bound_failure_length_fraction": 0.06788775377935612,
+        "reference_inside_channel": true
+      }
+    },
+    "sig3": {
+      "4_8": {
+        "exact_metric_min": 0.17790107077653583,
+        "conservative_bound_min": -0.13810099737595283,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.02294218114153699,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.17790107077653583,
+        "conservative_bound_min": -0.13810099737595283,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.025306311306815328,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.17790107077653583,
+        "conservative_bound_min": -0.13810099737595283,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.028215020228660632,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.17790107077653583,
+        "conservative_bound_min": -0.13810099737595283,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.03186230415981167,
+        "reference_inside_channel": true
+      }
+    },
+    "sig4": {
+      "4_8": {
+        "exact_metric_min": 0.5562311537278588,
+        "conservative_bound_min": 0.2549280394636285,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.5562311537278588,
+        "conservative_bound_min": 0.2549280394636285,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.5562311537278588,
+        "conservative_bound_min": 0.2549280394636285,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.5562311537278588,
+        "conservative_bound_min": 0.2549280394636285,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      }
+    }
+  },
+  "G3": {
+    "sig1": {
+      "4_8": {
+        "exact_metric_min": -0.8831556465714557,
+        "conservative_bound_min": -0.8831556465714556,
+        "exact_nonpositive_length_fraction": 0.08742176379572868,
+        "exact_nonpositive_resistance_fraction": 0.024107115462790603,
+        "conservative_bound_failure_length_fraction": 0.11071275958819655,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -0.8831556465714557,
+        "conservative_bound_min": -0.8831556465714556,
+        "exact_nonpositive_length_fraction": 0.09374679281731658,
+        "exact_nonpositive_resistance_fraction": 0.027342188002642466,
+        "conservative_bound_failure_length_fraction": 0.11872290931580526,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -0.8831556465714557,
+        "conservative_bound_min": -0.8831556465714556,
+        "exact_nonpositive_length_fraction": 0.10101969497579724,
+        "exact_nonpositive_resistance_fraction": 0.03128583518393908,
+        "conservative_bound_failure_length_fraction": 0.12793346551164908,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -0.8831556465714557,
+        "conservative_bound_min": -0.8831556465714556,
+        "exact_nonpositive_length_fraction": 0.10944258054025581,
+        "exact_nonpositive_resistance_fraction": 0.035545111558096996,
+        "conservative_bound_failure_length_fraction": 0.13217412855130395,
+        "reference_inside_channel": true
+      }
+    },
+    "sig2": {
+      "4_8": {
+        "exact_metric_min": -0.02326936475279151,
+        "conservative_bound_min": -0.08016639665714242,
+        "exact_nonpositive_length_fraction": 0.008710532786786927,
+        "exact_nonpositive_resistance_fraction": 0.001226379135639474,
+        "conservative_bound_failure_length_fraction": 0.028385838456177027,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -0.02326936475279151,
+        "conservative_bound_min": -0.08016639665714242,
+        "exact_nonpositive_length_fraction": 0.00935896293786437,
+        "exact_nonpositive_resistance_fraction": 0.0013836983699465567,
+        "conservative_bound_failure_length_fraction": 0.030498939223849844,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -0.02326936475279151,
+        "conservative_bound_min": -0.08016639665714242,
+        "exact_nonpositive_length_fraction": 0.010112316346247895,
+        "exact_nonpositive_resistance_fraction": 0.0015739172754169694,
+        "conservative_bound_failure_length_fraction": 0.03295396335087265,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -0.02326936475279151,
+        "conservative_bound_min": -0.08016639665714242,
+        "exact_nonpositive_length_fraction": 0.011000720812546537,
+        "exact_nonpositive_resistance_fraction": 0.001779213157053133,
+        "conservative_bound_failure_length_fraction": 0.03584909115549477,
+        "reference_inside_channel": true
+      }
+    },
+    "sig3": {
+      "4_8": {
+        "exact_metric_min": 0.4115198430070873,
+        "conservative_bound_min": 0.08031117220019068,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.4115198430070873,
+        "conservative_bound_min": 0.08031117220019068,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.4115198430070873,
+        "conservative_bound_min": 0.08031117220019068,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.4115198430070873,
+        "conservative_bound_min": 0.08031117220019068,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      }
+    },
+    "sig4": {
+      "4_8": {
+        "exact_metric_min": 0.610211641369174,
+        "conservative_bound_min": 0.28080300613545073,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.610211641369174,
+        "conservative_bound_min": 0.28080300613545073,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.610211641369174,
+        "conservative_bound_min": 0.28080300613545073,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.610211641369174,
+        "conservative_bound_min": 0.28080300613545073,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      }
+    }
+  },
+  "G4": {
+    "sig1": {
+      "4_8": {
+        "exact_metric_min": -0.7641500688838825,
+        "conservative_bound_min": -0.7641500688838825,
+        "exact_nonpositive_length_fraction": 0.1277508826638078,
+        "exact_nonpositive_resistance_fraction": 0.06643916949523605,
+        "conservative_bound_failure_length_fraction": 0.15126961837109906,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -0.7641500688838825,
+        "conservative_bound_min": -0.7641500688838825,
+        "exact_nonpositive_length_fraction": 0.13654582819712888,
+        "exact_nonpositive_resistance_fraction": 0.0750217061398234,
+        "conservative_bound_failure_length_fraction": 0.16168369948489628,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -0.7641500688838825,
+        "conservative_bound_min": -0.7641500688838825,
+        "exact_nonpositive_length_fraction": 0.14661580486290673,
+        "exact_nonpositive_resistance_fraction": 0.08572303154282362,
+        "conservative_bound_failure_length_fraction": 0.17360754294863803,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -0.7641500688838825,
+        "conservative_bound_min": -0.7641500688838825,
+        "exact_nonpositive_length_fraction": 0.15700870295858338,
+        "exact_nonpositive_resistance_fraction": 0.09806293717912024,
+        "conservative_bound_failure_length_fraction": 0.1840446876403347,
+        "reference_inside_channel": true
+      }
+    },
+    "sig2": {
+      "4_8": {
+        "exact_metric_min": -0.010009183565812485,
+        "conservative_bound_min": -0.2076028787683204,
+        "exact_nonpositive_length_fraction": 0.0059479407648026245,
+        "exact_nonpositive_resistance_fraction": 0.0009731775776710215,
+        "conservative_bound_failure_length_fraction": 0.03517424216987566,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -0.010009183565812485,
+        "conservative_bound_min": -0.2076028787683204,
+        "exact_nonpositive_length_fraction": 0.006373794372506913,
+        "exact_nonpositive_resistance_fraction": 0.0010954522203526149,
+        "conservative_bound_failure_length_fraction": 0.03769260583868447,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -0.010009183565812485,
+        "conservative_bound_min": -0.2076028787683204,
+        "exact_nonpositive_length_fraction": 0.006864477642082144,
+        "exact_nonpositive_resistance_fraction": 0.00124494408094211,
+        "conservative_bound_failure_length_fraction": 0.04059435164201853,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -0.010009183565812485,
+        "conservative_bound_min": -0.2076028787683204,
+        "exact_nonpositive_length_fraction": 0.00743246637466963,
+        "exact_nonpositive_resistance_fraction": 0.0014284084227110287,
+        "conservative_bound_failure_length_fraction": 0.04395325752555013,
+        "reference_inside_channel": true
+      }
+    },
+    "sig3": {
+      "4_8": {
+        "exact_metric_min": 0.39477307813901863,
+        "conservative_bound_min": 0.013974615951780733,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.39477307813901863,
+        "conservative_bound_min": 0.013974615951780733,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.39477307813901863,
+        "conservative_bound_min": 0.013974615951780733,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.39477307813901863,
+        "conservative_bound_min": 0.013974615951780733,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      }
+    },
+    "sig4": {
+      "4_8": {
+        "exact_metric_min": 0.6211275655138335,
+        "conservative_bound_min": 0.2409446149807899,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.6211275655138335,
+        "conservative_bound_min": 0.2409446149807899,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.6211275655138335,
+        "conservative_bound_min": 0.2409446149807899,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.6211275655138335,
+        "conservative_bound_min": 0.2409446149807899,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      }
+    }
+  },
+  "G5": {
+    "sig1": {
+      "4_8": {
+        "exact_metric_min": -0.5627416442405211,
+        "conservative_bound_min": -0.7645013775209726,
+        "exact_nonpositive_length_fraction": 0.10892684487716188,
+        "exact_nonpositive_resistance_fraction": 0.07949712315259176,
+        "conservative_bound_failure_length_fraction": 0.12854246938483607,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": -0.5627416442405211,
+        "conservative_bound_min": -0.7645013775209726,
+        "exact_nonpositive_length_fraction": 0.11624861295897489,
+        "exact_nonpositive_resistance_fraction": 0.08671904511729658,
+        "conservative_bound_failure_length_fraction": 0.1371827467247395,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": -0.5627416442405211,
+        "conservative_bound_min": -0.7645013775209726,
+        "exact_nonpositive_length_fraction": 0.12461509257855834,
+        "exact_nonpositive_resistance_fraction": 0.09618056769375222,
+        "conservative_bound_failure_length_fraction": 0.14705586800693543,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": -0.5627416442405211,
+        "conservative_bound_min": -0.7645013775209726,
+        "exact_nonpositive_length_fraction": 0.1309588033533429,
+        "exact_nonpositive_resistance_fraction": 0.10539854021523352,
+        "conservative_bound_failure_length_fraction": 0.15388385120641138,
+        "reference_inside_channel": true
+      }
+    },
+    "sig2": {
+      "4_8": {
+        "exact_metric_min": 0.15292458095589356,
+        "conservative_bound_min": -0.3867524614780282,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.028878239566952124,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.15292458095589356,
+        "conservative_bound_min": -0.3867524614780282,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.030883244662603948,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.15292458095589356,
+        "conservative_bound_min": -0.3867524614780282,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.033192729635111336,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.15292458095589356,
+        "conservative_bound_min": -0.3867524614780282,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.035885359340894346,
+        "reference_inside_channel": true
+      }
+    },
+    "sig3": {
+      "4_8": {
+        "exact_metric_min": 0.43884422235482523,
+        "conservative_bound_min": -0.07926054356277468,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.015461749318618252,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.43884422235482523,
+        "conservative_bound_min": -0.07926054356277468,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.016562938254593207,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.43884422235482523,
+        "conservative_bound_min": -0.07926054356277468,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.017834517618325114,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.43884422235482523,
+        "conservative_bound_min": -0.07926054356277468,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.019312609402912753,
+        "reference_inside_channel": true
+      }
+    },
+    "sig4": {
+      "4_8": {
+        "exact_metric_min": 0.646711244302241,
+        "conservative_bound_min": 0.19313211245277684,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "6_12": {
+        "exact_metric_min": 0.646711244302241,
+        "conservative_bound_min": 0.19313211245277684,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "8_16": {
+        "exact_metric_min": 0.646711244302241,
+        "conservative_bound_min": 0.19313211245277684,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      },
+      "10_20": {
+        "exact_metric_min": 0.646711244302241,
+        "conservative_bound_min": 0.19313211245277684,
+        "exact_nonpositive_length_fraction": 0.0,
+        "exact_nonpositive_resistance_fraction": 0.0,
+        "conservative_bound_failure_length_fraction": 0.0,
+        "reference_inside_channel": true
+      }
+    }
+  }
+}

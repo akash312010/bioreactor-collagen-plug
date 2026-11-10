@@ -1,0 +1,38 @@
+{
+ "G1": {
+  "threshold_pct": 28,
+  "grey_level": 10,
+  "dark_fraction": 0.3559417556128082,
+  "permeability_factor": 1.3183027985659563,
+  "demand_divided_by": 1.3183027985659563
+ },
+ "G2": {
+  "threshold_pct": 31,
+  "grey_level": 11,
+  "dark_fraction": 0.37703866856827384,
+  "permeability_factor": 1.396439513215829,
+  "demand_divided_by": 1.396439513215829
+ },
+ "G3": {
+  "threshold_pct": 35,
+  "grey_level": 14,
+  "dark_fraction": 0.43727427999631946,
+  "permeability_factor": 1.6195343703567386,
+  "demand_divided_by": 1.6195343703567386,
+  "portfed_demand_5mLmin_kPa": 19.48708256994151
+ },
+ "G4": {
+  "threshold_pct": 40,
+  "grey_level": 17,
+  "dark_fraction": 0.48606430576002946,
+  "permeability_factor": 1.8002381694815905,
+  "demand_divided_by": 1.8002381694815905
+ },
+ "G5": {
+  "threshold_pct": 45,
+  "grey_level": 20,
+  "dark_fraction": 0.5251239303459698,
+  "permeability_factor": 1.944903445725814,
+  "demand_divided_by": 1.944903445725814
+ }
+}

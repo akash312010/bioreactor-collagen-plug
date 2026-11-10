@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+desktop.ini
+# generated outputs
+figures/
+porous_plug_3d/tracer_R1T/vtu/
+porous_plug_3d/plug3d_results.json
+# Fluent case/data files are not part of the repository
+*.cas
+*.dat
+*.cas.h5
+*.dat.h5
+*.trn
+cleanup-fluent-*.bat

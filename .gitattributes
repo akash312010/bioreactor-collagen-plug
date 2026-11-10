@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text
+*.json text
+*.csv text
+*.out -text
+*.vtk -text
+*.step -text
+*.msh.gz binary
+*.npz binary
+*.png binary
+*.xlsx binary

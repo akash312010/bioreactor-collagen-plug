@@ -1,0 +1,11 @@
+                         "Surface Integral Report"
+
+           Mass-Weighted Average
+                 Static Pressure                 [Pa]
+-------------------------------- --------------------
+                           inlet            190001.91
+                          outlet                    0
+                         port_in             189991.1
+                        port_out           0.95114632
+                ---------------- --------------------
+                             Net            94998.542
