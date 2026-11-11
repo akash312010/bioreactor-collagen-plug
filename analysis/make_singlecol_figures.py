@@ -18,6 +18,7 @@ ROOT = Path(sys.argv[1]); OUT = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT
 OUT.mkdir(parents=True, exist_ok=True)
 CM = 1/2.54; W = 8.2*CM
 from figure_style import FAMILY as FONT
+from run_labels import PAPER_LABEL
 plt.rcParams.update({'font.family': FONT, 'font.size': 12, 'axes.labelsize': 12,
     'xtick.labelsize': 12, 'ytick.labelsize': 12, 'legend.fontsize': 12,
     'mathtext.fontset': 'custom', 'mathtext.rm': FONT, 'mathtext.it': FONT+':italic',
@@ -97,8 +98,8 @@ for r, d in tr.items():
     mk, ec, fc_ = sty[d['geom']]
     ax.loglog(d['t99_out'], d['t99_V'], mk, mec=ec, mfc=fc_, ms=5.5,
               label=d['geom'] if d['geom'] not in done else None); done.add(d['geom'])
-for r, (tx, ty) in {'E8': (2.05, 8.2), 'E14': (1.72, 4.9), 'E7': (1.85, 2.85), 'E10': (3.25, 4.6)}.items():
-    ax.text(tx, ty, r, fontsize=12)
+for r, (tx, ty) in {'E8': (1.86, 8.2), 'E14': (1.72, 4.9), 'E7': (1.85, 2.85), 'E10': (3.25, 4.6)}.items():
+    ax.text(tx, ty, PAPER_LABEL[r], fontsize=12)
 ax.text(1.3, 6.6, 'Interior lags outlet', fontsize=12, color=GREY)
 ax.text(4.2, 1.5, 'Interior first', fontsize=12, color=GREY)
 ax.set(xlim=lim, ylim=lim, xlabel=r'Outlet $t_{99,o}/t_{\rm ideal}$', ylabel=r'Internal $t_{99,V}/t_{\rm ideal}$')

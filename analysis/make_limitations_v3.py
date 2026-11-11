@@ -8,6 +8,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from figure_style import STYLE,WIDTH,CM
+from run_labels import PAPER_LABEL
 plt.rcParams.update(STYLE)
 R=Path(__file__).resolve().parents[1];O=R/'figures'
 H=json.loads((R/'headline_numbers.json').read_text());C=json.loads((R/'analysis/theory/curvi_test.json').read_text());T=json.loads((R/'analysis/tracer/tailfit.json').read_text())
@@ -34,7 +35,7 @@ for i,(run,v) in enumerate(T.items()):
  x=[v['tau_ms'][k]/v['t_ideal_ms'] for k in ['0.001_0.03','0.003_0.1']];y=v['ratio_V_out']
  ax[2].semilogx(x,[y,y],color='.6',lw=.9)
  ax[2].plot(x[0],y,'o',color='#171717',mfc='white');ax[2].plot(x[1],y,'D',color='#bc5618',ms=4)
- if run in ['E7','E8','E10','E14']:ax[2].annotate(run,(x[1],y),xytext=(5,4 if run!='E10' else -14),textcoords='offset points')
+ if run in ['E7','E8','E10','E14']:ax[2].annotate(PAPER_LABEL[run],(x[1],y),xytext=(5,4 if run!='E10' else -14),textcoords='offset points')
 ax[2].plot([],[],'o',mfc='white',mec='#171717',label='Residual 0.001–0.03')
 ax[2].plot([],[],'D',color='#bc5618',label='Residual 0.003–0.1')
 ax[2].axhline(1,color='.5',lw=.8,ls='--');ax[2].axvline(1,color='.5',lw=.8,ls=':')

@@ -22,6 +22,7 @@ J=lambda p:json.loads((ROOT/p).read_text())
 H=J('headline_numbers.json')
 ORANGE='#bc5618'; BLACK='#171717'; GREY='#777777'
 from figure_style import WIDTH, CM, STYLE
+from run_labels import PAPER_LABEL
 plt.rcParams.update(STYLE)
 
 def save(fig,name):
@@ -114,7 +115,7 @@ save(fig,'Fig_S4_Exchange_Tails')
 fig,ax=plt.subplots(figsize=(WIDTH,10*CM),layout='constrained')
 for rr,col,marker,name in [(['E11','E12'],ORANGE,'D','Darcy interstitial mapping'),(['E1','E6'],BLACK,'o','Conduit peak mapping')]:
     ax.loglog([tr[r]['Pe'] for r in rr],[tr[r]['t_ideal_ms'] for r in rr],marker+'-',color=col,mec=BLACK,mew=.5,label=name)
-    for r in rr:ax.annotate(r,(tr[r]['Pe'],tr[r]['t_ideal_ms']),xytext=(4,6),textcoords='offset points',fontsize=12)
+    for r in rr:ax.annotate(PAPER_LABEL[r],(tr[r]['Pe'],tr[r]['t_ideal_ms']),xytext=(4,6),textcoords='offset points',fontsize=12)
 ax.set(xlabel=r'G3 Péclet number',ylabel='Ideal flush time (ms)',xlim=(2.5,400),ylim=(2.5,400));legend(ax,loc='upper right',fontsize=12)
 save(fig,'Fig_S5_Coupling')
 
@@ -128,7 +129,7 @@ for run,col,mark in [('E1',BLACK,'o'),('E6',ORANGE,'s'),('E8',GREY,'^')]:
             n=int(next(v[1:] for v in fields if re.match(r'^N\d+$',v)))
             pts.append((n,d['mass_t99']))
     pts=sorted(pts)
-    axs[0].semilogx(*np.array(pts).T,mark+'-',color=col,mfc='white' if run=='E8' else col,label=run)
+    axs[0].semilogx(*np.array(pts).T,mark+'-',color=col,mfc='white' if run=='E8' else col,label=PAPER_LABEL[run])
 axs[0].set(xlabel='Steps per ideal flush time',ylabel=r'Outlet $t_{99,o}/t_{\rm ideal}$');legend(axs[0]);label(axs[0],'(a)')
 axs[0].set_xticks([250,1000,4000],['250','1000','4000']);axs[0].xaxis.set_minor_formatter(NullFormatter())
 co=J('analysis/tracer/courant.json');labs=list(co)

@@ -8,7 +8,10 @@ Run:  python analysis/tracer/solute_balance.py      -> solute_balance.json
 """
 import json
 from pathlib import Path
+import sys
 import numpy as np
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from run_labels import PAPER_LABEL
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
@@ -37,11 +40,11 @@ for run in RUNS:
     m = (y > 1e-3) & (y < 3e-2) & (t > t[np.argmax(y < 0.5)])
     tau = -1/np.polyfit(t[m], np.log(y[m]), 1)[0]
     dev = np.abs(np.gradient(cv, t)*tid-(1-co))[x > 0.5].max()
-    out[run] = dict(channel=GEOM[E[run]['geom']], Pe=E[run]['Pe_w'], t_ideal_ms=tid*1e3,
+    out[run] = dict(paper_label=PAPER_LABEL[run], channel=GEOM[E[run]['geom']], Pe=E[run]['Pe_w'], t_ideal_ms=tid*1e3,
                     Lambda_e=tau/tid, residual_ratio_median=float(np.median(y[m]/(1-co[m]))),
                     balance_max_deviation=float(dev), t99_out=cross(x, co, .99), t99_V=cross(x, cv, .99))
     out[run]['ratio99'] = out[run]['t99_V']/out[run]['t99_out']
 (HERE/'solute_balance.json').write_text(json.dumps(out, indent=1))
-print('Run  Ch.  Lambda_e  r/(1-c_o)  t99V/t99o  max|balance|')
+print('Paper (Fluent run)  Ch.  Lambda_e  r/(1-c_o)  t99V/t99o  max|balance|')
 for r, v in out.items():
-    print(f"{r:<4} {v['channel']}   {v['Lambda_e']:6.2f}    {v['residual_ratio_median']:6.2f}     {v['ratio99']:5.2f}     {v['balance_max_deviation']:.1e}")
+    print(f"{v['paper_label']:<4}({r:<4})       {v['channel']}   {v['Lambda_e']:6.2f}    {v['residual_ratio_median']:6.2f}     {v['ratio99']:5.2f}     {v['balance_max_deviation']:.1e}")
